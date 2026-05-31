@@ -22,7 +22,7 @@ Welcome to the **Algo-Trading** repository. This workspace is dedicated to maste
 ### 1. 🐍 Python Basics (`01_Python_Basics/`)
 An interactive Jupyter Notebook series designed to build a strong foundation in Python programming tailored for data analysis.
 *   **`01_Basics.ipynb`**: Focuses on variables, core data structures (strings, numbers, lists), and basic console interaction.
-*   **`02_Operators_If_else_loops_modules.ipynb`**: Covers logic gates, conditional branching (`if-elif-else`), iterative processes (`for` and `while` loops), and importing standard/third-party modules.
+*   **`02_Operators_If_else_loops_modules.ipynb`**: Covers logic gates, conditional branching (`if-elif-else`), iterative processes (`for` and `while` loops), and importing standard/third-party modules. Includes a **Random Stock Portfolio & Daily Performance Simulator** that generates randomized trading data and evaluates active gains/losses.
 
 ### 2. 💼 Financial Projects (`Projects/`)
 Practical, real-world mini-projects that apply programming concepts to financial data.
