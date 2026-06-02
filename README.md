@@ -9,9 +9,12 @@ Welcome to the **Algo-Trading** repository. This workspace is dedicated to maste
 ```filepath
 ├── 01_Python_Basics/
 │   ├── 01_Basics.ipynb                        # Variables, basic data types, and built-in Python functions
-│   └── 02_Operators_If_else_loops_modules.ipynb # Arithmetic/logical operators, control flow, loops, and modules
+│   ├── 02_Operators_If_else_loops_modules.ipynb # Arithmetic/logical operators, control flow, loops, and modules
+│   └── 03_Strings.ipynb                       # String indexing, slicing, formatting, parsing, and advanced data extraction
 ├── Projects/
-│   └── 01_mini_project.py                      # Stock Data Entry and Analysis Tool
+│   ├── 01_mini_project.py                      # Stock Data Entry and Analysis Tool
+│   ├── 02_mini_project.py                      # Simulated Stock Trading Bot (Momentum-based decisions)
+│   └── 03_mini_project.py                      # Moving Average Crossover Strategy (Static historical data)
 └── README.md                                  # Repository documentation
 ```
 
@@ -26,12 +29,21 @@ An interactive Jupyter Notebook series designed to build a strong foundation in 
     *   **Random Stock Portfolio & Daily Performance Simulator**: Generates randomized stock data and tracks dynamic gains/losses.
     *   **Market-Making Order Placement Simulator**: Uses nested loops to place bid (buy) and ask (sell) limit orders over customizable prices and volumes.
     *   **Price Series Simulation**: Simulates historical stock price progression over a 60-day timeline using random daily returns.
+*   **`03_Strings.ipynb`**: Focuses on string indexing, slicing, formatting, and operations. Highlights include:
+    *   **Complex String Manipulation with Loops**: Extracting symbols and price pairs from mixed blocks of text.
+    *   **String Parsing & Cleaning**: Filtering transaction logs, cleaning financial amounts, and processing options contract details.
 
 ### 2. 💼 Financial Projects (`Projects/`)
 Practical, real-world mini-projects that apply programming concepts to financial data.
 *   **`01_mini_project.py` (Stock Data Entry & Analysis Tool)**:
     *   **Objective**: Automate stock tracking by taking manual price inputs over a trading week (5 working days).
     *   **Features**: Dynamic stock search, average price computation, and structured terminal reporting.
+*   **`02_mini_project.py` (Simulated Stock Trading Bot)**:
+    *   **Objective**: Simulate trading decisions (buy, hold, sell) on historical stock prices based on a dynamic momentum calculation.
+    *   **Features**: N-day rolling average calculation, conditional execution, portfolio updating, and performance evaluation over a simulated timeline.
+*   **`03_mini_project.py` (Moving Average Crossover Trading Strategy)**:
+    *   **Objective**: Outline a basic Moving Average Crossover Strategy to process predefined stock price series.
+    *   **Features**: A structured step-by-step logic design with multi-line docstring comments and defined sample datasets.
 
 ---
 
